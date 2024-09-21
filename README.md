@@ -1,12 +1,12 @@
 
 ```
   
-                                ██╗███╗   ██╗ ██████╗ ██╗   ██╗██╗███████╗██╗████████╗██╗ ██████╗ 
-                                ██║████╗  ██║██╔═══██╗██║   ██║██║██╔════╝██║╚══██╔══╝██║██╔═══██╗
-                                ██║██╔██╗ ██║██║   ██║██║   ██║██║███████╗██║   ██║   ██║██║   ██║
-                                ██║██║╚██╗██║██║▄▄ ██║██║   ██║██║╚════██║██║   ██║   ██║██║   ██║
-                                ██║██║ ╚████║╚██████╔╝╚██████╔╝██║███████║██║   ██║   ██║╚██████╔╝
-                                ╚═╝╚═╝  ╚═══╝ ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝ ╚═════╝  by LuckSevyn
+                  ██╗███╗   ██╗ ██████╗ ██╗   ██╗██╗███████╗██╗████████╗██╗ ██████╗ 
+                  ██║████╗  ██║██╔═══██╗██║   ██║██║██╔════╝██║╚══██╔══╝██║██╔═══██╗
+                  ██║██╔██╗ ██║██║   ██║██║   ██║██║███████╗██║   ██║   ██║██║   ██║
+                  ██║██║╚██╗██║██║▄▄ ██║██║   ██║██║╚════██║██║   ██║   ██║██║   ██║
+                  ██║██║ ╚████║╚██████╔╝╚██████╔╝██║███████║██║   ██║   ██║╚██████╔╝
+                  ╚═╝╚═╝  ╚═══╝ ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝ ╚═════╝  by LuckSevyn
 ```
 ## Overview
 **Inquisitio** is a tool that I designed to gather comprehensive system information from a Windows machine. The tool collects details such as OS version, user accounts, network configuration, firewall settings, running services, scheduled tasks, and much more. It outputs all collected information into a neatly formatted log file named `Inquisitio.txt`, which is saved in the same directory where the tool is executed.
