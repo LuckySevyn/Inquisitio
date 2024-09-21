@@ -9,7 +9,7 @@
                                 ╚═╝╚═╝  ╚═══╝ ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝ ╚═════╝  by LuckSevyn
 ```
 ## Overview
-**Inquisitio** is a tool that I designed to gather comprehensive system information from a Windows machine. The script collects details such as OS version, user accounts, network configuration, firewall settings, running services, scheduled tasks, and much more. It outputs all collected information into a neatly formatted log file named `Inquisitio.txt`, which is saved in the same directory where the script is executed.
+**Inquisitio** is a tool that I designed to gather comprehensive system information from a Windows machine. The tool collects details such as OS version, user accounts, network configuration, firewall settings, running services, scheduled tasks, and much more. It outputs all collected information into a neatly formatted log file named `Inquisitio.txt`, which is saved in the same directory where the tool is executed.
 
 ## Features
 - Displays a custom banner before running the system commands.
@@ -26,33 +26,37 @@
   - Registry information regarding AlwaysInstallElevated policy
   - Searches for sensitive files (e.g., files containing "pass", "cred", or `.config` files)
 - Generates a log file (`Inquisitio.txt`) summarizing all information in a readable format.
-- Simple to use with no prerequisites other than running the script on a Windows system.
+- Simple to use with no prerequisites other than running the tool on a Windows system.
 
 ## How to Use
 
-1. **Download the Script:**
-   Save the script file (`Inquisitio.bat`) to any directory on your Windows machine.
+1. **Download the Tool:**
+   Save the tool (`Inquisitio.bat`) or (`Inquisitio.exe`) to any directory on your Windows machine.
 
-2. **Run the Script:**
+2. **Run the Tool:**
    - Open a Command Prompt with **Administrator privileges** (right-click on the Command Prompt icon and select *Run as administrator*).
-   - Navigate to the directory where `Inquisitio.bat` is located.
-   - Type the following command and hit **Enter**:
+   - Navigate to the directory where `Inquisitio.bat` or `Inquisitio.exe` is located.
+   - Type one of the following commands (depending on which one you would like to use) and hit **Enter**:
      ```cmd
      Inquisitio.bat
      ```
+     ```cmd
+     Inquisitio.exe
+     ```
 
 3. **Wait for Execution:**
-   - The script will display a banner and a message: "Please wait for the results...".
-   - The system commands will execute, and the results will be saved to the log file.
+   - The tool will open and display a banner and a message: "Please wait for the results...".
+   - The system commands will execute, and the results will be compiled and saved to a log file.
+   - If you encounter any errors like a registry key or value missing, it will display "ERROR" and "File Not Found" simply saying it is not present on the system.
 
 4. **View the Log File:**
-   - Once the script completes, a file named `Inquisitio.txt` will be created in the same directory as the script.
+   - Once the tool completes, a file named `Inquisitio.txt` will be created in the same directory as the tool.
    - Open the log file with any text editor (e.g., Notepad) to view the system information collected.
 
 5. **Completion:**
-   - After the execution, the script will notify you that the report was generated and pause until you press any key to exit.
+   - After the execution, the tool will notify you that the report was generated and pause until you press any key to exit.
 
-## Script Output
+## Tool Output
 
 The generated log file (`Inquisitio.txt`) contains the following sections:
 - **Operating System Information**: OS name and version.
